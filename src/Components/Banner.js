@@ -17,7 +17,7 @@ const Banner = () => {
                 to="/" 
                 className={({ isActive }) => isActive ? 'active-link' : ''}
               >
-                Home
+                Accueil
               </NavLink>
             </li>
             <li>
@@ -25,7 +25,7 @@ const Banner = () => {
                 to="/about" 
                 className={({ isActive }) => isActive ? 'active-link' : ''}
               >
-                About
+                A Propos
               </NavLink>
             </li>
           </ul>
