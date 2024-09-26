@@ -1,0 +1,30 @@
+@import '../Style/_Variables.scss';
+
+.NotFound-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    min-height: 100vh;
+
+    h1 {
+        color: $theme-color;
+        font-size: 288px;
+        margin: 0;
+    }
+
+    p {
+        color: $theme-color;
+        font-size: 36px;
+        margin: 0;
+    }
+
+    a {
+        font-size: 18px;
+
+        &:visited {
+            color: black;
+        }
+    }
+}
