@@ -1,0 +1,15 @@
+@import '../Style/_Variables.scss';
+
+
+.collapse {
+    width: 80%;
+    .collapse-title {
+        color: white;
+        background-color: $theme-color;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 700;
+}
+}
