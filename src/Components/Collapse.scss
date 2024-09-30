@@ -4,6 +4,9 @@
 .collapse {
     width: 80%;
     .collapse-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         color: white;
         background-color: $theme-color;
         border: none;
@@ -11,5 +14,13 @@
         width: 100%;
         font-size: 24px;
         font-weight: 700;
-}
+        padding: 5px 15px;
+    }
+    .collapse-icon {
+        font-size: 40px;
+        transition: transform 0.3s ease;  // Animation pour la rotation
+        &.open {
+            transform: rotate(180deg);  // Pivote la flèche lorsqu'elle est ouverte
+        }
+    }
 }

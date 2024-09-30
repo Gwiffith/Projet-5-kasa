@@ -13,6 +13,9 @@ function Collapse({ title, children }) {
       {/* Titre cliquable pour ouvrir/fermer */}
       <button className="collapse-title" onClick={toggleCollapse}>
         {title}  {/* Le titre est passé en props */}
+        <span className={`material-symbols-outlined collapse-icon ${isOpen ? 'open' : ''}`}>
+        keyboard_arrow_down  {/* Icône pour flèche vers le bas */}
+        </span>
       </button>
 
       {/* Contenu conditionnel qui se montre/se cache selon isOpen */}
@@ -22,3 +25,5 @@ function Collapse({ title, children }) {
 }
 
 export default Collapse;
+
+
