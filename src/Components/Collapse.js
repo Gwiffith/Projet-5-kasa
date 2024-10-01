@@ -19,7 +19,9 @@ function Collapse({ title, children }) {
       </button>
 
       {/* Contenu conditionnel qui se montre/se cache selon isOpen */}
-      {isOpen && <div className="collapse-content">{children}</div>}  {/* Contenu passé via les props */}
+      <div className={`collapse-content ${isOpen ? 'open' : ''}`}>
+        {children}
+      </div>
     </div>
   );
 }

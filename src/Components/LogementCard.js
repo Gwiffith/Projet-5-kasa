@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './LogementCard.scss'
 
 
+
 function LogementCard({ logement }) {
   return (
     <Link to={`/logement/${logement.id}`} className="logement-card">

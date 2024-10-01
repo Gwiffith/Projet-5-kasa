@@ -23,4 +23,17 @@
             transform: rotate(180deg);  // Pivote la flèche lorsqu'elle est ouverte
         }
     }
+    .collapse-content {
+        max-height: 0;  // Initialement fermé
+        overflow: hidden;  // Cache le contenu en excès
+        transition: max-height 0.4s ease-in-out;  // Animation fluide d'ouverture/fermeture
+        background-color: rgba(246, 246, 246, 0.9);  // Couleur de fond
+        padding: 0 10px;  // Padding horizontal seulement pour un affichage propre
+      }
+    
+      .collapse-content.open {
+        max-height: 500px;  // Définis une hauteur maximale (ajuste selon ton contenu)
+        padding: 10px;  // Ajoute un padding en mode ouvert pour l'esthétique
+    }
+    
 }
