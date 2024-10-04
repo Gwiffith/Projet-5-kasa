@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 60px;
+    padding: 20px 60px;
+    font-size: 24px;
+    font-weight: 500;
 
     .logo {
         height: 68px;
@@ -15,6 +17,7 @@
     list-style-type: none;
     gap: 20px;
 
+
     a {
         text-decoration: none;
         color: black;
@@ -26,5 +29,19 @@
     
     .active-link {
         text-decoration: underline;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .header {
+        font-size: 12px;
+        padding: 20px;
+        /* Texte en majuscule */
+        text-transform: uppercase;
+
+        .logo {
+            height: 46px;
+        }
     }
 }

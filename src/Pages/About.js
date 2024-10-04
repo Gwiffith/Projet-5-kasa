@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.scss'
-import CardTitle from '../Components/Banner/CardTitle';
+import CardTitle from '../Components/Banner/Banner';
 import backgroundAbout from '../Assets/backgroundAbout.png';
 import Collapse from '../Components/Collapse/Collapse';
 

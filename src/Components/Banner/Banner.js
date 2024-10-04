@@ -1,9 +1,9 @@
 import React from 'react';
-import './CardTitle.scss';  // Tu peux garder le SCSS pour les autres styles si nécessaire
+import './Banner.scss';  
 
-function CardTitle({ title, backgroundImage, brightness }) {
+function Banner({ title, backgroundImage, brightness }) {
   return (
-    <div className="title-card">
+    <div className="banner">
       <img
         src={backgroundImage}
         alt={title}
@@ -15,4 +15,4 @@ function CardTitle({ title, backgroundImage, brightness }) {
   );
 }
 
-export default CardTitle;
+export default Banner;

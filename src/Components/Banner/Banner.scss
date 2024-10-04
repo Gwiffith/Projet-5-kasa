@@ -1,0 +1,47 @@
+.banner {
+    position: relative;  
+    display: flex;
+    max-height: 223px;
+    margin-bottom: 30px;
+    
+    .background-Img {
+        width: 100%;  
+        height: auto;
+        object-fit: cover;
+        border-radius: 25px;
+    }
+  
+    h1 {
+        position: absolute;
+        top: 40%;  
+        left: 50%;  
+        transform: translate(-50%, -50%);  
+        color: white;  
+        font-size: 48px;
+        font-weight: 700;  
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+    }
+}
+
+@media (max-width: 768px) {
+
+    .banner {
+        max-height: 111px; 
+        margin-bottom: 0;
+
+        .background-Img {
+            border-radius: 10px;
+        }
+
+        h1 {
+            position: absolute;
+            top: 40%;  
+            left: 5%;  // Aligne le titre à gauche (5% du bord gauche)
+            transform: translate(0, -50%);  // Enlève le centrage horizontal
+            font-size: 24px;
+        }
+    }
+
+
+    
+}

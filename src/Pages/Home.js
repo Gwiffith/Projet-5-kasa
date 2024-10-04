@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import CardTitle from '../Components/Banner/CardTitle';
+import Banner from '../Components/Banner/Banner.js';
 import LogementCard from '../Components/LogementCard/LogementCard.js';
 import logementsData from '../Data/logements.json';
 import backgroundHome from '../Assets/backgroundHome.png'; 
@@ -16,7 +16,7 @@ function Home() {
   return (
     <main>
       {/* Utilisation de CardTitle avec un titre et une image personnalisée */}
-      <CardTitle title="Chez vous, partout et ailleurs" backgroundImage={backgroundHome} brightness={40} />
+      <Banner title="Chez vous, partout et ailleurs" backgroundImage={backgroundHome} brightness={40} />
 
       {/* Galerie de logements */}
       <div className='gallery'>

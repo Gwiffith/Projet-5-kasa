@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './Banner.scss';  
+import './Header.scss';  
 import logo from '../../Assets/Logo-Kasa.png';  
 
-const Banner = () => {
+const Header = () => {
   return (
     <header className="header">
       <div>
@@ -35,4 +35,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Header;
