@@ -1,0 +1,17 @@
+@import '../../../Style/_Variables.scss';
+
+.tags {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 700;
+
+    .tag {
+        background-color: $theme-color;
+        color: white;
+        padding: 5px 20px;
+        border-radius: 10px;
+
+    }
+
+}

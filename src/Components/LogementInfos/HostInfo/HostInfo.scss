@@ -1,0 +1,18 @@
+@import '../../../Style/_Variables.scss';
+
+.host-info {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    .host-picture {
+        border-radius: 100px;
+        height: 64px;
+    }
+
+    p {
+        color: $theme-color;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

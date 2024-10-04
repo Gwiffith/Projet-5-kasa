@@ -1,8 +1,8 @@
 import React from 'react';
 import './About.scss'
-import CardTitle from '../Components/CardTitle';
+import CardTitle from '../Components/Banner/CardTitle';
 import backgroundAbout from '../Assets/backgroundAbout.png';
-import Collapse from '../Components/Collapse';
+import Collapse from '../Components/Collapse/Collapse';
 
 function About() {
 

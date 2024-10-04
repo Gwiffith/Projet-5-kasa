@@ -24,8 +24,8 @@ function Slideshow({ images }) {
       {/* Affiche les boutons seulement s'il y a plus d'une image */}
       {!isSingleImage && (
         <>
-          <button className="prev-slide" onClick={prevSlide}>❮</button>
-          <button className="next-slide" onClick={nextSlide}>❯</button>
+          <button className="btn-slide btn-slide-prev" onClick={prevSlide}>❮</button>
+          <button className="btn-slide btn-slide-next" onClick={nextSlide}>❯</button>
         </>
       )}
       

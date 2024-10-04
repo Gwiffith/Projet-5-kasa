@@ -5,8 +5,8 @@ main {
 .gallery {
     display: flex;
     flex-wrap: wrap;  // Les cartes se répartissent sur plusieurs lignes si nécessaire
-    justify-content: space-between;  // Espace uniformément les cartes sur chaque ligne
-    gap: 40px;  // Ajoute de l'espace entre les cartes
+    justify-content: flex-start;  // Espace uniformément les cartes sur chaque ligne
+    gap: 60px;  // Ajoute de l'espace entre les cartes
     padding: 20px;
     border-radius: 25px;
     background-color: rgba(246, 246, 246, 1);

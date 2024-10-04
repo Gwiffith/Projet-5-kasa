@@ -1,0 +1,17 @@
+@import '../../../Style/_Variables.scss' ; 
+
+.star-rating {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+  
+    .star {
+      font-size: 24px;
+      color: lightgray;  // Couleur pour les étoiles vides
+  
+      &.filled {
+        color: $theme-color;  // Couleur pour les étoiles pleines
+      }
+    }
+  }
+  

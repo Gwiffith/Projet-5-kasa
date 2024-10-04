@@ -1,0 +1,21 @@
+@import '../../../Style/_Variables.scss';
+
+.title-location {
+    font-weight: 500;
+
+    h1, p {
+        margin:0;  
+    }
+
+    h1 {
+        color: $theme-color;
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 15px;
+
+    }
+}

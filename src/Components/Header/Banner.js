@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Banner.scss';  
-import logo from '../Assets/Logo-Kasa.png';  
+import logo from '../../Assets/Logo-Kasa.png';  
 
 const Banner = () => {
   return (

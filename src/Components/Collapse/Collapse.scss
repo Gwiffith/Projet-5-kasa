@@ -1,4 +1,4 @@
-@import '../Style/_Variables.scss';
+@import '../../Style/_Variables.scss';
 
 
 .collapse {
@@ -10,7 +10,7 @@
         color: white;
         background-color: $theme-color;
         border: none;
-        border-radius: 5px;
+        border-radius: 10px;
         width: 100%;
         font-size: 24px;
         font-weight: 700;
@@ -28,11 +28,11 @@
         overflow: hidden;  // Cache le contenu en excès
         transition: max-height 0.4s ease-in-out;  // Animation fluide d'ouverture/fermeture
         background-color: rgba(246, 246, 246, 0.9);  // Couleur de fond
-        padding: 0 10px;  // Padding horizontal seulement pour un affichage propre
+        border-radius: 10px;
       }
     
       .collapse-content.open {
-        max-height: 500px;  // Définis une hauteur maximale (ajuste selon ton contenu)
+        max-height: 500px;  
         padding: 10px;  // Ajoute un padding en mode ouvert pour l'esthétique
     }
     

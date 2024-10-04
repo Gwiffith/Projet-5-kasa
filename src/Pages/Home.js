@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import CardTitle from '../Components/CardTitle';
-import LogementCard from '../Components/LogementCard';
+import CardTitle from '../Components/Banner/CardTitle';
+import LogementCard from '../Components/LogementCard/LogementCard.js';
 import logementsData from '../Data/logements.json';
 import backgroundHome from '../Assets/backgroundHome.png'; 
 import './Home.scss'

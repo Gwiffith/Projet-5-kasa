@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Banner from './Banner';
+import Banner from './Header/Banner';
 import MyRouter from './MyRouter';
-import Footer from './Footer';
+import Footer from './Footer/Footer.js';
 
 function App() {
   return (
