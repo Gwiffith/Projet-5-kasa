@@ -1,12 +1,12 @@
 import React from 'react';
 import { useParams , Navigate } from 'react-router-dom';
-import logementsData from '../Data/logements.json'; 
-import Slideshow from '../Components/Slideshow/Slideshow.js';
-import TitleLocation from '../Components/LogementInfos/TitleLocation/TitleLocation.js';
-import Tags from '../Components/LogementInfos/Tags/Tags.js';
-import HostInfo from '../Components/LogementInfos/HostInfo/HostInfo.js';
-import Rating from '../Components/LogementInfos/StarRating/StarRating.js';
-import Collapse from '../Components/Collapse/Collapse.js';
+import logementsData from '../../Data/logements.json'; 
+import Slideshow from '../../Components/Slideshow/Slideshow.js';
+import TitleLocation from '../../Components/LogementInfos/TitleLocation/TitleLocation.js';
+import Tags from '../../Components/LogementInfos/Tags/Tags.js';
+import HostInfo from '../../Components/LogementInfos/HostInfo/HostInfo.js';
+import Rating from '../../Components/LogementInfos/StarRating/StarRating.js';
+import Collapse from '../../Components/Collapse/Collapse.js';
 import './Logement.scss'
 
 function Logement() {

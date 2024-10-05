@@ -1,8 +1,8 @@
 import React from 'react';
 import './About.scss'
-import CardTitle from '../Components/Banner/Banner';
-import backgroundAbout from '../Assets/backgroundAbout.png';
-import Collapse from '../Components/Collapse/Collapse';
+import Banner from '../../Components/Banner/Banner.js';
+import backgroundAbout from '../../Assets/backgroundAbout.png';
+import Collapse from '../../Components/Collapse/Collapse';
 
 function About() {
 
@@ -10,7 +10,7 @@ function About() {
         <main>
           <div>
             {/* Utilisation de CardTitle avec un titre et une image personnalisée */}
-            <CardTitle title="" backgroundImage={backgroundAbout} brightness={70} />
+            <Banner title="" backgroundImage={backgroundAbout} brightness={70} />
           </div>
           <div className='Collapses-container'>
               {/* Collapse avec un titre et un contenu */}

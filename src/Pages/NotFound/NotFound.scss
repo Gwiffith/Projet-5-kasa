@@ -1,4 +1,4 @@
-@import '../Style/_Variables.scss';
+@import '../../Style/_Variables.scss';
 
 .NotFound-container {
     display: flex;
@@ -25,6 +25,24 @@
 
         &:visited {
             color: black;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .NotFound-container {
+        h1 {
+            font-size: 96px;
+        }
+
+        p {
+            font-size : 18px;
+            text-align: center;
+        }
+
+        a {
+            font-size: 14px;
         }
     }
 }

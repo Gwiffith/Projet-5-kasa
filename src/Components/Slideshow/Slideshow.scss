@@ -53,3 +53,35 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 768px) {
+
+  .slideshow {
+    height: 255px;
+
+    .slideshow-image {
+      border-radius: 10px;
+    }
+
+    .btn-slide {
+      font-size: 30px;
+      width: 30px;
+      height: 30px;
+    }
+
+    .btn-slide-prev {
+      left: 5px;
+    }
+
+    .btn-slide-next {
+      right: 5px;
+    }
+
+    .slideshow-counter {
+      display: none;
+    }
+
+  }
+
+}
+

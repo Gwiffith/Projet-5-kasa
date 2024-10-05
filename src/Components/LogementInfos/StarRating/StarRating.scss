@@ -14,4 +14,17 @@
       }
     }
   }
+
+  @media (max-width: 768px) {
+
+    .star-rating {
+      gap: 5px;
+      justify-content: flex-start;
+
+      .star {
+        font-size: 13px;
+      }
+    }
+
+  }
   

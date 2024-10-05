@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Banner from '../Components/Banner/Banner.js';
-import LogementCard from '../Components/LogementCard/LogementCard.js';
-import logementsData from '../Data/logements.json';
-import backgroundHome from '../Assets/backgroundHome.png'; 
+import Banner from '../../Components/Banner/Banner.js';
+import LogementCard from '../../Components/LogementCard/LogementCard.js';
+import logementsData from '../../Data/logements.json';
+import backgroundHome from '../../Assets/backgroundHome.png'; 
 import './Home.scss'
 
 function Home() {

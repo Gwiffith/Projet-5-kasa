@@ -15,3 +15,17 @@
     }
 
 }
+
+@media (max-width: 768px) {
+
+    .tags {
+
+        font-size: 10px;
+
+        .tag {
+            border-radius: 5px;
+            padding: 5px 15px;
+        }
+    }
+
+}

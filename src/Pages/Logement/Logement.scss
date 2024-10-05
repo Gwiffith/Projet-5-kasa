@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px; 
+
+    .logement-overview {
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 0px;
+    }
+
+    .collapses {
+        display: flex;
+        justify-content: space-between;
+        gap: 5%;
+        margin-bottom: 50px;
+
+        .collapse-content {
+            ul {
+                list-style-type: none;  // Retire les points de la liste
+                padding-left: 0;          
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main {
+        padding: 0 20px;
+
+    
+
+        .logement-overview {
+            flex-direction: column;
+
+            .host-rating {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
+        .collapses {
+            flex-direction: column;
+            margin-bottom: 0;
+
+            .collapse {
+                margin-bottom: 20px;
+            }      
+         }
+    }
+}

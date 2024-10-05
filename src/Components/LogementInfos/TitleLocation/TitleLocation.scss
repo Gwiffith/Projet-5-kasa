@@ -19,3 +19,17 @@
 
     }
 }
+
+@media (max-width: 768px) {
+    
+    .title-location {
+
+        h1 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
