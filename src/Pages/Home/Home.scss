@@ -20,6 +20,10 @@ main {
         flex-direction: column;
         padding: 20px;
         gap: 20px;
+
+        .break-mobile {
+            display: block;  // Force le retour à la ligne en mobile
+          }
     }
 
     .gallery {

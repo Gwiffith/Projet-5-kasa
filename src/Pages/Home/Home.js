@@ -15,8 +15,14 @@ function Home() {
 
   return (
     <main>
-      {/* Utilisation de CardTitle avec un titre et une image personnalisée */}
-      <Banner title="Chez vous, partout et ailleurs" backgroundImage={backgroundHome} brightness={40} />
+      {/* Utilisation de Banner avec un titre et un retour à la ligne conditionnel */}
+      <Banner 
+        title={
+          <>Chez vous, <span className="break-mobile">partout et ailleurs</span></>
+        }
+        backgroundImage={backgroundHome}
+        brightness={40}
+      />
 
       {/* Galerie de logements */}
       <div className='gallery'>

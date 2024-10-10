@@ -14,7 +14,7 @@ function Collapse({ title, children }) {
       <button className="collapse-title" onClick={toggleCollapse}>
         {title}  {/* Le titre est passé en props */}
         <span className={`material-symbols-outlined collapse-icon ${isOpen ? 'open' : ''}`}>
-        keyboard_arrow_down  {/* Icône pour flèche vers le bas */}
+        keyboard_arrow_up  {/* Icône pour flèche vers le haut */}
         </span>
       </button>
 
